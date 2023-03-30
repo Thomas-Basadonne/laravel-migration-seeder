@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Faker\Factory as Faker;
-use App\Models\Trains;
+use App\Models\Train;
 
 class TrainSeeder extends Seeder
 {
