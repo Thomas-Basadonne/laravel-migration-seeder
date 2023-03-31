@@ -10,5 +10,9 @@ class Train extends Model
 {
     use HasFactory;
 
-   
+    public static function getAllTrains()
+    {
+        return self::all();
+    }
+    
 }
